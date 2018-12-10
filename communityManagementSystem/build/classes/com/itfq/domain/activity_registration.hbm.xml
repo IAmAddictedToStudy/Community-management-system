@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.itfq.domain" >
+	<class name="Activity_registration" table="activity_registration" lazy="false" >
+
+		<composite-id >
+            <key-property name="aaid"></key-property> 
+            <key-property name="studentId" ></key-property> 
+        </composite-id> 
+
+	</class>
+</hibernate-mapping>

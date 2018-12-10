@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.itfq.domain" >
+	<class name="Association" table="Association" lazy="false" >
+		<id name="studentId"  >
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="password"  ></property>
+		<property name="mName" ></property>
+		<property name="mSex" ></property>
+		<property name="academy"  ></property>
+		<property name="grade"  ></property>
+		<property name="profession"  ></property>
+		<property name="classAndGrade"  ></property>
+		<property name="dorm"  ></property>
+		<property name="phone"  ></property>
+		<property name="QQ"  ></property>
+		<property name="email"  ></property>
+	<!-- 
+		lazy属性: 决定是否延迟加载
+			true(默认值): 延迟加载,懒加载
+			false: 立即加载
+			extra: 极其懒惰
+		fetch属性: 决定加载策略.使用什么类型的sql语句加载集合数据
+			select(默认值): 单表查询加载
+			join: 使用多表查询加载集合
+			subselect:使用子查询加载集合
+	 -->
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.itfq.domain" >
+	<class name="Academician" table="academician" lazy="false" >
+	
+		<composite-id >
+            <key-property name="studentId"   ></key-property> 
+            <key-property name="associationId" ></key-property> 
+        </composite-id> 
+		<property name="time" ></property>
+
+
+	</class>
+</hibernate-mapping>

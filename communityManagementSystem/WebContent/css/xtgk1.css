@@ -1,0 +1,91 @@
+﻿body
+{
+    background-image:url("img/07.jpg");
+}
+.vip {
+    position: relative;
+    width: 1000px;
+    margin: 10px auto 0;
+    background-image:url("img/08.jpg");
+}
+
+    .vip h2 {
+        line-height: 60px;
+        height: 60px;
+        text-align: left;
+        font-size: 18px;
+        color: #333
+    }
+
+    .vip > a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        width: 100px;
+        height: 60px;
+        font-size: 12px;
+        color: #333;
+        text-align: right;
+        line-height: 52px;
+        padding-top: 8px
+    }
+
+        .vip > a:hover {
+            color: #35b558
+        }
+
+    .vip ul {
+        font-size: 0
+    }
+
+        .vip ul li {
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 10px;
+            text-align: center;
+            height: 130px;
+            width: 134px;
+            background:#ffffff;
+            transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -webkit-transition: all .2s ease;
+            -o-transition: all .2s ease
+        }
+
+            .vip ul li:nth-child(7n) {
+                margin-right: 0
+            }
+
+            .vip ul li:nth-child(n+8) {
+                margin-top: 10px
+            }
+
+            .vip ul li:hover {
+                box-shadow: 0 3px 6px rgba(0,0,0,.2)
+            }
+
+            .vip ul li a {
+                display: block;
+                height: 100%;
+                text-align: center
+            }
+
+                .vip ul li a img {
+                    display: inline-block;
+                    height: 50px;
+                    margin-top: 15px
+                }
+
+                .vip ul li a h3 {
+                    font-size: 12px;
+                    color: #555;
+                    height: 30px;
+                    line-height: 30px
+                }
+
+                .vip ul li a span {
+                    display: block;
+                    font-size: 12px;
+                    color: #35b558
+                }
